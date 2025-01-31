@@ -1,6 +1,15 @@
 site_name: My Docs Material Documentation
 site_url: https://sitename.example
 theme:
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
   name: material
   font:
     text: Merriweather Sans
